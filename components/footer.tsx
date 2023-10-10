@@ -6,9 +6,18 @@ const Footer = () => {
     <footer className="bg-neutral-50 border-t border-neutral-200">
       <Container>
         <div className="py-28 flex flex-col lg:flex-row items-center">
-          <h6 className="text-4xl lg:text-[1rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
- 
-          </h6>
+          <div className="text-4xl lg:text-[1rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
+          <a href="https://discordapp.com/users/873803230042263563" target="_blank" rel="nofollow">
+                      <img src="https://lanyard.cnrad.dev/api/873803230042263563?idleMessage=:Building%20something..."  alt="Discord Presence">                        
+                      </img>
+          </a>
+          </div>
+          <div className="text-4xl lg:text-[1rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
+          <a href="https://discordapp.com/users/873803230042263563" target="_blank" rel="nofollow">
+                      <img src="https://lanyard.cnrad.dev/api/462592550402916352?idleMessage=:Building%20something..."  alt="Discord Presence">                        
+                      </img>
+          </a>
+          </div>
           <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
             <a
               href="https://github.com/KessokuDAO"

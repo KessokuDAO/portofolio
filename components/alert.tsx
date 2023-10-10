@@ -19,6 +19,8 @@ const Alert = ({ preview }: Props) => {
             <>
               View source code for this blog{' '}
               <a
+                target='_blank'
+                rel='noreferrer'
                 href={`https://github.com/KessokuDAO/portofolio`}
                 className="underline hover:text-blue-600 duration-200 transition-colors"
               >

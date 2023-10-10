@@ -2,5 +2,9 @@ import { AppProps } from 'next/app'
 import '../styles/index.css'
 
 export default function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return (
+  <div className="bg-gray-300">
+  <Component  {...pageProps} />
+  </div>
+  )
 }
